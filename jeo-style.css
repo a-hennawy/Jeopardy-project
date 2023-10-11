@@ -1,0 +1,42 @@
+#game-table{
+  text-align: center;
+  font-size: 9pt;
+  background-color: #060ce9;
+  color: white;
+  border-collapse: collapse;
+
+}
+tbody{
+  display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+th{
+  border: solid 1px white;
+    width: 12em;
+    padding: 1em;
+}
+tr{
+  display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+  border: solid 1px white;
+  width: 12em;
+  padding: 1em;
+  display: table-cell;
+
+}
+
+thead{
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  color: gold;
+}
+
+tfoot {
+  /* background-color: rgb(15, 36, 153); */
+  color: black;
+}
